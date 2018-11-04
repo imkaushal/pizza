@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur');
+
+#head h1
+{
+   color:#990100;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+}
+.navbar-default .navbar-nav>li>a
+{
+	padding-left: 177px;
+	font-size: 18px;
+	font-family: 'Bree Serif', serif;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ffd630;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    color:#E0E0E2;
+    background-color: transparent;
+}
+.navbar-default
+{
+	background:transparent;
+	border: none;
+}
+.navbar-default .navbar-nav>li>a 
+{
+	color:#f6a525;
+}
+
+.navbar-fixed-top
+{
+  padding-top: 80px;
+}
+
+.top-nav-collapse
+{
+  background-color:rgba(153, 1, 0, .8);
+  padding: 0px;
+}
+
+.con
+{
+	padding-top: 80px;
+}
+
+.veg
+{
+	min-height: 500px;
+
+	
+}
+.non
+{
+	min-height: 500px;
+	
+}
+.start
+{
+	min-height: 500px;
+	
+}
+.des
+{
+	min-height: 500px;
+	
+}
+h3
+{
+	color:#990100;
+  text-transform: uppercase;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align: center;
+}
+.row
+{
+	padding-left: 60px;
+}

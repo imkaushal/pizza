@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+*
+{
+  margin: 0;
+  padding: 0;
+}
+#banner
+{
+	background: url('../img/slider_bg.jpg');
+	height: 680px;
+	background-size: cover;
+  background-attachment: fixed;
+}
+.topinfo 
+{
+	border-bottom: 1px solid white;
+}
+.topinfo ul li
+{
+	margin-right: 20px;
+	display: inline-block;
+	color: white;
+}
+.navbar-default
+{
+	background:transparent;
+	border: none;
+  transition: 0.5s;
+
+}
+.navbar-brand img
+{
+	width: 130px;
+  margin-top: -3px;
+  padding-top: 4px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+   font-family: 'Bree Serif', serif;
+   font-size: 18px;
+    padding-top: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ffd630;
+    background-color: transparent;
+}
+.topinfo>ul>li>i
+{
+	margin-right: 7px;
+	color: #ffd630
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    color:#ffd630;
+    background-color: transparent;
+}
+.ab
+{
+	padding-top: 20px;
+}
+
+.section
+{
+    padding-top: 40px;
+}
+
+.content {
+    padding: 40px 50px 70px;
+    max-width: 100%;
+    background-color: #f6a525;
+}
+
+#ad
+{
+  padding-top: 20px;
+  padding-left: 50px;
+  position: relative;
+}
+.des
+{
+    padding: 40px 50px 70px;
+    background-color: #f6a525;
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+    margin-left: 100px;
+    position: absolute;
+}
+.des h1
+{
+      font-size: 34px;
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+
+}
+.des p
+{
+  font-size: 17px;
+    text-align: center;
+    text-align-last: center;
+    max-height: 168px;
+    overflow: hidden;
+}
+.side
+{
+  position: absolute;
+  margin-left: 650px
+}
+.ff 
+{
+position: absolute;
+right: -80px;
+bottom: -420px
+}
+
+.gg
+{
+  padding-top: 500px;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+
+ }
+ .gg h1
+ {
+   color:#990100;
+  text-transform: uppercase;
+ }
+ .gg p
+ {
+  font-size: 23px;
+ } 
+.btn-info
+ {
+  background-color:#990100; 
+  border: none; 
+ }
+ .gallery
+ {
+  padding-top: 50px;
+ text-align: center;
+ }
+.gallery h1
+{
+  color:#990100;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+}
+
+.gallery img
+{
+  padding-top: 10px;
+  width: 230px;
+  padding:5px;
+}
+.gallery img:hover
+{
+  transform: scale(1.1);
+}
+.btn-info:hover
+{
+  background-color:#f6a525;
+}
+.btn2
+{
+   margin-top: 10px;
+  font-family: 'Bree Serif', serif;
+}
+.contact h1
+{
+  color:#990100;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  padding-top: 50px;
+}
+.footer
+{
+  width: 100%;
+  height: auto;
+  margin:0;
+  background-color:#990100;
+  padding: 20px 0px;
+}
+.icons ul
+{
+  margin: 0;
+ text-align: center;
+ padding-right: 40px;  
+}
+.icons ul li
+{
+  display: inline-block;
+  width:60px;
+  height:60px;
+  margin: 10px 10px;
+
+}
+.icons ul li a
+{
+  color:#f6a525; 
+  font-size: 25px;
+}
+.fab:hover {
+    color:white;
+}
+.name p
+{
+  color:#f6a525; 
+   text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+}
+.navbar-fixed-top
+{
+  padding-top: 40px;
+}
+.top-nav-collapse
+{
+  background-color:rgba(153, 1, 0, .8);
+  padding: 0px;
+}
+.carousel
+{
+  margin-top: 140px;
+  position: center;
+  height: auto;
+}
+.carousel-control.left, .carousel-control.right
+{
+  background-image: none;
+}
